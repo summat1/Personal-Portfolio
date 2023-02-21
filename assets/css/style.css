@@ -33,7 +33,7 @@ body {
 
 
 @media (max-width: 600px) {
-    .site-header {
+    .content-wrapper {
       margin-top: 40px;
     }
 }
