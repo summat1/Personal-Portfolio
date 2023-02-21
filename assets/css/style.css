@@ -42,19 +42,19 @@ body {
 }
 
 @media (min-width: 768px) {
-    #navbarSupportedContent {
+    #navbar-desktop {
       display: block !important;
     }
-    #navbarDropdownMenuLink {
+    #navbar-mobile {
       display: none !important;
     }
   }
   
   @media (max-width: 767px) {
-    #navbarSupportedContent {
+    #navbar-desktop {
       display: none !important;
     }
-    #navbarDropdownMenuLink {
+    #navbar-mobile {
       display: block !important;
     }
   }
