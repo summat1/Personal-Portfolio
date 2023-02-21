@@ -31,6 +31,13 @@ body {
     font-size: 1.02em;
 }
 
+
+@media (max-width: 600px) {
+    .site-header {
+      margin-top: 40px;
+    }
+}
+
 /* setup navbar */
 .navbar{
     background-color: var(--color-base);
