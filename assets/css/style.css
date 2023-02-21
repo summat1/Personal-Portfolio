@@ -41,24 +41,6 @@ body {
     }
 }
 
-@media (min-width: 768px) {
-    #navbar-desktop {
-      display: block !important;
-    }
-    #navbar-mobile {
-      display: none !important;
-    }
-  }
-  
-  @media (max-width: 767px) {
-    #navbar-desktop {
-      display: none !important;
-    }
-    #navbar-mobile {
-      display: block !important;
-    }
-  }
-
 /* setup navbar */
 .navbar{
     background-color: var(--color-base);
