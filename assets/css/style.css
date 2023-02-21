@@ -41,6 +41,24 @@ body {
     }
 }
 
+@media (min-width: 768px) {
+    #navbarSupportedContent {
+      display: block !important;
+    }
+    #navbarDropdownMenuLink {
+      display: none !important;
+    }
+  }
+  
+  @media (max-width: 767px) {
+    #navbarSupportedContent {
+      display: none !important;
+    }
+    #navbarDropdownMenuLink {
+      display: block !important;
+    }
+  }
+
 /* setup navbar */
 .navbar{
     background-color: var(--color-base);
