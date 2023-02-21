@@ -36,6 +36,9 @@ body {
     .spaced {
       margin-top: 80px;
     }
+    .content-spaced {
+      margin-top: 50px;
+    }
 }
 
 /* setup navbar */
