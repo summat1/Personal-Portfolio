@@ -33,7 +33,7 @@ body {
 
 
 @media (max-width: 600px) {
-    .content-wrapper {
+    .spaced {
       margin-top: 40px;
     }
 }
