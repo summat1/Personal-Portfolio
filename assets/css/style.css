@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Work+Sans:wght@400;500;600;700&display=swap');
+
+/* setup colors and fonts */
+:root {
+    --color-body: #b6cbce;
+    --color-heading: #eef3db;
+    --color-base: #033f47;
+    --color-base2: #2b384b;
+    --color-brand: #e0f780;
+    --color-brand2: #deff58;
+    --color-buttons: #26bea2;
+    --color-bubble: #aedce4; 
+    --sidebar-width: 240px;
+    --font-base: "Montserrat";
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: var(--color-heading);
+    font-weight: 700;
+}
+
+.bubble-header {
+    color: var(--color-bubble);
+    font-weight: 500;
+}
+
+body {
+    background-color: var(--color-base2);
+    color: var(--color-body);
+    font-family: var(var(--font-base)), Arial;
+    font-size: 1.02em;
+}
+
+/* setup navbar */
+.navbar{
+    background-color: var(--color-base);
+}
+
+.navbar .nav-link:hover {
+    color: var(--color-brand);
+}
+
+/* images */
+
+img {
+    display: block;
+    margin-left: auto;
+    width: 350px;
+    height: auto;
+}
+
+.img-exp {
+    display: block;
+    width: 416px;
+    height: auto;
+}
+
+/* text fonts and styles */
+
+.text-brand {
+    color: var(--color-brand);
+    text-align: left;
+}
+
+.text-brand-title {
+    color: var(--color-brand);
+    text-align: left;
+    padding-bottom: 35px;
+
+}
+
+/* displays and background */
+
+.bg-base {
+    background-color: var(--color-base);
+}
+
+.display-4 {
+    text-align: center;
+}
+
+/* adding effects */
+.shadow-effect {
+    transition: all 0.5s;
+}
+
+.shadow-effect:hover {
+    box-shadow: -5px 5px 0 0 var(--color-brand);
+}
+
+/* Buttons for learn more and hide */
+
+.learn-more {
+    text-align: center;
+    background-color: transparent;
+    color: var(--color-buttons);
+    border: none;
+    cursor: pointer;
+}
+
+.learn-more:hover {
+    color: var(--color-brand);
+}
+
+.hide {
+    text-align: center;
+    color: var(--color-buttons);
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.hide-container {
+  display: none;
+  margin-top: 10px;
+}
+
+.hide:hover {
+  color: var(--color-brand);
+}
+
+.expanded-content {
+    display: none;
+}
+
+/* for interest boxes */
+
+.interest-title {
+    padding-bottom: 12px;
+}
+
+.full-height{
+    min-height: 100vh;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-bottom: 3px solid rgba(255, 255, 255, 0.1);
+}
+
+.full-height-mid{
+    min-height: 100vh;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: top;
+    border-bottom: 3px solid rgba(255, 255, 255, 0.1);
+    padding-top: 120px;
+    text-align: center;
+}
+
+
+/* for experience boxes */
+.experience-card .card {
+
+}
+
+.experience-card-image {
+
+}
+
+.experience-card-content {
+
+}
