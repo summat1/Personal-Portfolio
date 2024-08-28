@@ -18,3 +18,19 @@ interests.forEach(interest => {
       learnMoreBtn.style.display = "inline-block";
     });
 });
+
+document.addEventListener("DOMContentLoaded", function() {
+  const observer = new IntersectionObserver((entries, observer) => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        entry.target.classList.add('fade-in');
+        observer.unobserve(entry.target); // Stop observing once the animation is triggered
+      }
+    });
+  });
+
+  // Target all elements you want to animate on scroll
+  document.querySelectorAll('.fade-in-on-scroll').forEach(element => {
+    observer.observe(element);
+  });
+});

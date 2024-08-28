@@ -18,7 +18,7 @@
 :root {
     --color-body: #ffffff;
     --color-heading: #f5f5f5;
-    --color-base: #033f47;
+    --color-base: #014f4e;
     --color-base2: #2b384b;
     --color-brand: #57d5ff;
     --color-brand2: #deff58;
@@ -46,6 +46,27 @@ body {
     font-size: 1.02em;
 }
 
+.bold-text {
+    color: #26bea2;
+    font-weight: bold;
+}
+
+@keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(20px); /* Optional: adds a slight upward movement */
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  .fade-in {
+    opacity: 0; /* Initial state */
+    animation: fadeIn 1.5s ease-out forwards; /* Apply animation */
+    animation-delay: 0.5s; /* Optional: delay before animation starts */
+  }
 
 @media (max-width: 1300px) {
     .spaced {
